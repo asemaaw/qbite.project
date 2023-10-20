@@ -1,0 +1,361 @@
+@media (max-width: 621px){
+    .header{
+        height: 71px;
+        width: 340px;
+        margin-left: 26px;
+        
+    }
+    .title{
+        padding-left: 35px;
+        font-size: 20px;
+    }
+    .header__container{
+        padding: 0;
+        display: flex;
+        padding: 16px;
+    }
+    .container{
+        padding-left: 0;
+    }
+    .intro__title{
+        font-size: 20px;
+        width: 70%;
+    }
+    .burger-menu{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        margin-left: 32px;
+        margin-top: 48px;
+    }
+    .burger-item{
+        font-size: 20px;
+        color: white;
+        font-family: 'Unbounded', sans-serif;
+    }
+    .burger-item:not(:last-child){
+        margin-bottom: 40px;
+    }
+    .menu-item{
+        width: 152px;
+        height: 48px;
+        background: var(--color-light);
+        border-radius: 20px;
+        color: white;
+        font-family: 'Noto Sans', sans-serif;
+        font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 16px 40px;
+    }
+    .intro{
+        padding-bottom: 190px;
+    }
+    .header__nav{
+        padding: 0;
+    }
+    .nav__list{
+        display: none;
+    }
+    .header__logo{
+        width: 60px;
+        height: 20px;
+        margin-right: 62px;
+        margin-left: 13px;
+    }
+    .header__button{
+        width: 110px;
+        height: 40px;
+        font-size: 16px;
+        margin-right: 48px;
+    }
+    .burger-img{
+        display: block;
+        width: 23px;
+        height: 22px;
+    }
+    .introImg{
+        width: 80px;
+        height: 80px;
+        margin-right: 20px;
+        cursor: pointer;
+    }
+    .introImgTwo{
+        width: 60px;
+        height: 45px;
+        left: 37%;
+        bottom: 28px;
+    }
+    .intro-container{
+        padding-top: 38px;
+        
+    }
+    .intro__descr p{
+        font-size: 16px;
+        width: 90%;
+    }
+    .intro__descr{
+        left: 5%;
+        width: 330px;
+        height: 64px;
+        padding: 10px 20px;
+        transform: rotate(-4deg);
+       top: 32px;
+    }
+    .intro__button{
+        top: 72%;
+        width: 328px;
+        height: 56px;
+        font-size: 16px;
+        left: 31.5%;
+        
+    }
+    .introImgThree{
+        display: none;
+    }
+    .about__title{
+        font-size: 20px;
+        white-space: nowrap;
+        
+    }
+    .about-container{
+        padding-bottom: 70px;
+    }
+    .about__up{
+        display: flex;
+        flex-direction: column;
+    }
+    .about__text{
+        width: 328px;
+        height: 248px;
+        font-size: 16px;
+       align-items: center;
+       
+    }
+    .about__text p{
+        width: 280px;
+    }
+    .about__right{
+        margin-left: 32px;
+    }
+    .about__check{
+        width:326px ;
+        height: 93px;
+        transform: rotate(-2deg);
+        padding: 10px 20px;
+        left: 5%;
+        margin-top: 15px;
+
+    }
+    .about__check p{
+        font-size: 16px;
+
+    }
+    .about__button{
+        display: none;
+    }
+    .offer-item__col{
+        width: 152px;
+        height: 144px;
+        padding: 16px;
+       
+    }
+    .offer-item__col:not(:last-child){
+        margin-bottom: 40px;
+    }
+    .offer-item__title{
+        font-size: 18px;
+        white-space: wrap;
+    }
+    .offer-item__text{
+        font-size: 14px;
+        white-space: wrap;
+
+    }
+    .title-wrapper{
+        margin-bottom: 0;
+    }
+    .offer__second-img{
+        width: 60px;
+        height: 60px;
+        margin-top: 20px;
+    }
+    .offer-cards{
+        padding-bottom: 5px;
+    }
+    .offer__mini-img{
+        width: 25px;
+        height: 25px;
+        left: 48%;
+        top: 25px;
+    }
+    .offer-list{
+        margin-top: 34px;
+    }
+    .price-list__col{
+        width: 153px;
+        height: 104px;
+        padding: 16px 8px;
+        display: inline-block;
+
+    }
+    .price-list__title, .price-list__text{
+        font-size: 16px;
+    }
+    .price-list-col{
+        width: 370px;
+        height: 350px;
+    }
+    .price-list-main__title{
+        font-size: 20px;
+    }
+    .price-descr{
+        font-size: 16px;
+    }
+    .price-list__img{
+        width: 24px;
+        height: 24px;
+    }
+    .price-list__descr{
+        margin-left: 9px;
+    }
+    .price-list__on-img{
+        width: 90px;
+        height: 120px;
+    }
+   .price-list{
+    display: flex;
+    flex-direction: column;
+   }
+   .inline{
+    display: flex;
+   }
+   .inl{
+    margin-right: 23px;
+   }
+   .int{
+    margin-left: 85px;
+   }
+   .price-list__item{
+    margin-bottom: 24px;
+   }
+   .price{
+    margin-bottom: 0;
+   }
+   .works__img{
+    width: 25px;
+    height: 25px;
+    margin-top: 19px;
+    left: 31%;
+   }
+   .works__pic{
+    width: 152px;
+height: 104px;
+   }
+   .title-container{
+    margin-bottom: 24px;
+   }
+   .works-list__title{
+    font-size: 18px;
+    width: 50%;
+   }
+   .works-list__text{
+    font-size: 16px;
+    width: 55%;
+   }
+   .works-list__col{
+    margin-bottom: 40px;
+   }
+   .partners-img{
+    width: 40px;
+    height: 40px;
+   }
+   .half{
+    display: none;
+   }
+   .partners-img:not(:last-child){
+    margin-right: 32px;
+}
+.question-container{
+    margin-top: 40px;
+}
+.questions-list{
+    margin-left: 0;
+}
+.questions__title{
+    width: 60%;
+}
+.question-img{
+    width: 54px;
+    height: 54px;
+    left: -2%;
+    margin-top: 15px;
+}
+.question-list__col{
+    width: 328px;
+    height: 120px;
+    margin-bottom: 16px;
+}
+.question-list__text{
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 16px;
+    width: 90%;
+}
+.question__img{
+    width: 24px;
+    height: 24px;
+
+}
+.question-wrapper{
+    margin-bottom: 24px;
+}
+.answer{
+    width: 328px;
+    height: 368px;
+    font-size: 14px;
+    padding: 16px;
+}
+.answer-img{
+    width: 24px;
+    height: 24px;
+}
+.answer:not(:last-child){
+    margin-bottom: 16px;
+}
+.project-title{
+    width: 50%;
+}
+.project__img-two{
+    display: none;
+}
+.project__img-one{
+    height: 40px;
+    width: 55px;
+    top: 25px;
+    left: 46%;
+}
+input{
+    width: 328px;
+    height: 54px;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.form-button{
+    width: 328px;
+    height: 56px;
+    font-size: 16px;
+}
+.footer-item{
+    width: 152px;
+    height: 48px;
+    font-size: 14px;
+width: 152px;
+padding: 16px 40px;
+}
+.footer__text{
+    font-size: 14px;
+}
+}
